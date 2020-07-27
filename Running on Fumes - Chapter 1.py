@@ -1,4 +1,6 @@
 """
+Note:   Solution is not at all efficient. It has exponential time complexity. It is only for understanding the problem/logic.
+
 You just landed yourself a gig as a delivery driver for a nationwide supply chain. You've been assigned a series of long-haul jobs, so it's time to get to work.
 For each job, you will be provided with a map of the relevant region, which includes N cities (numbered from 1 to N) and N-1 two-way roads running amongst them. The cities are connected by roads in a single line, such that there's a road between each pair of consecutive cities. In other words, cities i and j are directly connected by a road if and only if |i - j| = 1
 You will begin in city 1 with a shipment of supplies to be delivered to city N, and with a full gas tank having a capacity of M gallons. You will then have two options at each point in time:
